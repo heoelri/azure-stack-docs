@@ -17,7 +17,7 @@ ms.lastreviewed: 3/19/2020
 
 # Support policies for AKS engine on Azure Stack Hub
 
-This article provides details about technical support policies and limitations for AKS engine on Azure Stack Hub. The article also details Kubernetes Marketplace item, third-party open-source components, and security or patch management. 
+This article provides details about technical support policies and limitations for AKS engine on Azure Stack Hub. The article also details third-party open-source components, and security or patch management. 
 
 ## Self-managed Kubernetes clusters on Azure Stack Hub with AKS engine
 
@@ -45,7 +45,6 @@ Microsoft provides technical support for the following:
 Microsoft does not provide technical support for the following:
 
 -  Using the AKS engine on Azure.
--  Azure Stack Hub Kubernetes Marketplace item.
 -  Using the following AKS engine cluster definition options and addons.
     -  Not supported addons:  
             -  AAD Pod Identity  
@@ -90,10 +89,6 @@ Microsoft does not provide technical support for the following:
 ##  Security issues and patching
 
 If a security flaw is found in one or more components of AKS engine or Kubernetes provider for Azure Stack Hub, Microsoft will make available a patch for customers to patch affected clusters to mitigate the issue. Alternatively, the team will give users upgrade guidance. Notice that patches may require downtime of the cluster. When reboots are required, Microsoft will notify the customers of this requirement. If users don't apply the patches according to Microsoft guidance, their cluster will continue to be vulnerable to the security issue.
-
-## Kubernetes marketplace item
-
-Users can download a Kubernetes Marketplace item, which allows users to deploy Kubernetes clusters using the AKS engine indirectly through a template in the Azure Stack Hub user portal, this makes it simpler than using the AKS engine directly. This is a useful tool to quickly set up clusters for demonstrations, testing, and development. It is not intended for production, as such it is not included in the set of items supported by Microsoft.
 
 ## Preview features
 
